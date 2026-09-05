@@ -1,4 +1,66 @@
 #topo
 {
+    background-color: rgb(12, 8, 8);
+    text-align: center;
+}
+
+body
+{
+    background-color: #303c41;
+}
+
+#menu ul
+{
+    display: flex;
+    gap: 235px;
+}
+
+#menu a
+{
+    color: black;
+}
+
+#titulo_destaque
+{
+    text-align: center;
+}
+
+.destaques ul
+{
+    list-style: none;
+}
+
+figure 
+{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+figure:hover 
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+img 
+{
+    width: 150px;
+    height: 200px;
+}
+
+.destaques a
+{
+    color: black;
+}
+
+#rodape a
+{
+    color: black;
+}
+
+#direitos
+{
     text-align: center;
 }
