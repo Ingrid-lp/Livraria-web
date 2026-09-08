@@ -2,11 +2,28 @@
 {
     background-color: rgb(12, 8, 8);
     text-align: center;
+    padding: 10px;
+}
+
+#topo h1
+{
+    color: red;
+}
+
+#topo h2
+{
+    color: wheat;
 }
 
 body
 {
     background-color: #303c41;
+    margin: 0;
+}
+
+nav
+{
+    padding: 20px;
 }
 
 #menu ul
@@ -20,14 +37,24 @@ body
     color: black;
 }
 
-#titulo_destaque
+#menu 
 {
-    text-align: center;
+    background-color: rgb(40, 52, 53);
+    padding: 5px;
 }
 
 .destaques ul
 {
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+}
+
+.destaques h2
+{
+    color: wheat;
+    text-align: center;
 }
 
 figure 
@@ -55,12 +82,142 @@ img
     color: black;
 }
 
-#rodape a
+.links a
 {
-    color: black;
+    color: wheat;
 }
 
-#direitos
+#rodape 
+{
+    background-color: rgb(12, 8, 8);
+    text-align: center;
+    padding: 10px;
+}
+
+.links ul 
+{
+    display: flex;
+    gap: 235px;
+    justify-content: center;
+}
+
+.direitos
 {
     text-align: center;
+    color: wheat
+}
+
+.tabelaLivros
+{
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+table, th, td
+{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.sobre
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+.sobre h1
+{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.sobre p
+{
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.sobre h3
+{
+    color: #8b0000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #8b0000;
+    padding-bottom: 5px;
+}
+
+.sobre ol
+{
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+.sobre li
+{
+    margin-bottom: 8px;
+}
+
+#contatoTitulo
+{
+    text-align: center;
+}
+
+.contato
+{
+    width: 60%;
+    margin: 30px auto;
+}
+
+.contato legend
+{
+    text-align: center;
+}
+
+input
+{
+    background-color: rgb(44, 44, 38);
+}
+
+select
+{
+    background-color: rgb(44, 44, 38);
+}
+
+textarea
+{
+    background-color: rgb(44, 44, 38);
+}
+
+button:hover
+{
+    background-color: rgb(44, 44, 38);
+}
+
+nav {
+    background-color: #f5f5f5;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li a {
+    display: block;
+    padding: 20px 30px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav li a:hover {
+    background-color: #8b0000;
+    color: white;
 }

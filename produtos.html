@@ -3,91 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Projeto Livraria</title>
 </head>
 <body>
 
-    <table>
+    <header id="topo">
+    <h1>Livraria John & Paul</h1>
+    <h2>Livros novos e usados com os melhores preços para você</h2>
+    </header>
 
-    <thead>
-        <tr>
-        <th>id</th>
-        <th>título</th>
-        <th>autor</th>
-        <th>preço</th>
-        </tr>
-    </thead>
+    <nav id="menu">
+        <ul>
+            <a href="index.html"><li>Inicio</li></a>
+            <a href="produtos.html"><li>Livros</li></a>
+            <a href="#"><li>Promoções</li></a>
+            <a href="sobre.html"><li>John & Paul</li></a>
+            <a href="contato.html"><li>Contate-nos</li></a>
+        </ul>
+    </nav>
 
-    <tbody>
-        <tr>
-        <td>001</td>
-        <td>O Mistério do Café Sem Açúcar</td>
-        <td>Lucas Silva</td>
-        <td>R$ 34,90</td>
-        </tr>
-        <tr>
-        <td>002</td>
-        <td>Amanhã Será Outro Bug</td>
-        <td>Ana Tech</td>
-        <td>R$ 42,00</td>
-        </tr>
-        <tr>
-        <td>003</td>
-        <td>Crônicas de um Gato de Botas</td>
-        <td>Feline M.</td>
-        <td>R$ 29,90</td>
-        </tr>
-        <tr>
-        <td>004</td>
-        <td>O Último Backup da Terra</td>
-        <td>John Doe</td>
-        <td>R$ 55,00</td>
-        </tr>
-        <tr>
-        <td>005</td>
-        <td>Poemas para Noites em Claro</td>
-        <td>Clara Luz</td>
-        <td>R$ 19,90</td>
-        </tr>
-        <tr>
-        <td>006</td>
-        <td>Como Irritar Seu Dragão</td>
-        <td>Viking Solitário</td>
-        <td>R$ 39,99</td>
-        </tr>
-        <tr>
-        <td>007</td>
-        <td>A Revolução dos Algoritmos</td>
-        <td>Ada Lovelace Jr.</td>
-        <td>R$ 64,50</td>
-        </tr>
-        <tr>
-        <td>008</td>
-        <td>Receitas para Românticos Sem Talento</td>
-        <td>Chefe Cupido</td>
-        <td>R$ 47,80</td>
-        </tr>
-        <tr>
-        <td>009</td>
-        <td>O Segredo do Ponto e Vírgula</td>
-        <td>Dev Sênior</td>
-        <td>R$ 15,00</td>
-        </tr>
-        <tr>
-        <td>010</td>
-        <td>Guia de Viagem para Marte</td>
-        <td>Elon Musgo</td>
-        <td>R$ 89,90</td>
-        </tr>
-    </tbody>
+    <table class="tabelaLivros" border = "1">
 
-    <tfoot>
-        <tr>
-        <td colspan="4">Esses são nossos produtos</td>
-        </tr>
-    </tfoot>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Coleção Heartopper Volume 1</td>
+                <td>Alice Oseman</td>
+                <td>R$ 34,90</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Coleção Heartopper Volume 2</td>
+                <td>Alice Oseman</td>
+                <td>R$ 42,00</td>
+            </tr>
+
+            <tr>
+                <td>003</td>
+                <td>Coleção Heartopper Volume 3</td>
+                <td>Alice Oseman</td>
+                <td>R$ 29,90</td>
+            </tr>
+
+            <tr>
+                <td>004</td>
+                <td>Coleção Heartopper Volume 4</td>
+                <td>Alice Oseman</td>
+                <td>R$ 55,00</td>
+            </tr>
+
+            <tr>
+                <td>005</td>
+                <td>Coleção Heartopper Volume 5</td>
+                <td>Alice Oseman</td>
+                <td>R$ 19,90</td>
+            </tr>
+
+            <tr>
+                <td>006</td>
+                <td>Coleção Heartopper Volume 6</td>
+                <td>Alice Oseman</td>
+                <td>R$ 39,99</td>
+            </tr>
+
+            <tr>
+                <td>007</td>
+                <td>John &amp; Paul: História</td>
+                <td>John &amp; Paul</td>
+                <td>R$ 64,50</td>
+            </tr>
+
+            <tr>
+                <td>008</td>
+                <td>The Beatles</td>
+                <td>Hunter Davies</td>
+                <td>R$ 47,80</td>
+            </tr>
+
+            <tr>
+                <td>009</td>
+                <td>Autobiográfia Rita Lee</td>
+                <td>Rita Lee</td>
+                <td>R$ 15,00</td>
+            </tr>
+
+            <tr>
+                <td>010</td>
+                <td>Vermelho, Branco e Sangue Azul</td>
+                <td>Casey McQuiston</td>
+                <td>R$ 89,90</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4"><strong>Esses são os nossos produtos</strong></td>
+            </tr>
+        </tfoot>
 
     </table>
+
+    <footer id="rodape">
+        <div class="links">
+        <ul>
+            <a href="index.html"><li>Inicio</li></a>
+            <a href="produtos.html"><li>Livros</li></a>
+            <a href="#"><li>Promoções</li></a>
+            <a href="sobre.html"><li>John & Paul</li></a>
+            <a href="contato.html"><li>Contate-nos</li></a>
+        </ul>
+        </div>
+
+        <div class="direitos">
+            <p> &copy; 2014. Livraria John & Paul - Todos os direitos reservados</p>
+        </div>
+    </footer>
 
 </body>
 </html>
