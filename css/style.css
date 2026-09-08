@@ -1,29 +1,33 @@
 #topo
 {
-    background-color: rgb(12, 8, 8);
+    background-color: #171313;
     text-align: center;
     padding: 10px;
 }
 
 #topo h1
 {
-    color: red;
+    color: #C62828;
 }
 
 #topo h2
 {
-    color: wheat;
+    color: #E8E0D0;
 }
 
 body
 {
-    background-color: #303c41;
+    background-color: #E8E0D0;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 nav
 {
     padding: 20px;
+    background-color: #31545A;
 }
 
 #menu ul
@@ -34,12 +38,12 @@ nav
 
 #menu a
 {
-    color: black;
+    color: #F5F0E6;
 }
 
-#menu 
+#menu
 {
-    background-color: rgb(40, 52, 53);
+    background-color: #31545A;
     padding: 5px;
 }
 
@@ -53,25 +57,26 @@ nav
 
 .destaques h2
 {
-    color: wheat;
+    color: #8B1E1E;
     text-align: center;
 }
 
-figure 
+figure
 {
     text-align: center;
     margin: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #B8AA91;
     display: inline-block;
+    background-color: #F5F0E6;
 }
 
-figure:hover 
+figure:hover
 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-img 
+img
 {
     width: 150px;
     height: 200px;
@@ -79,22 +84,23 @@ img
 
 .destaques a
 {
-    color: black;
+    color: #292525;
 }
 
 .links a
 {
-    color: wheat;
+    color: #E8E0D0;
 }
 
-#rodape 
+#rodape
 {
-    background-color: rgb(12, 8, 8);
+    background-color: #171313;
     text-align: center;
     padding: 10px;
+    margin-top: auto;
 }
 
-.links ul 
+.links ul
 {
     display: flex;
     gap: 235px;
@@ -104,19 +110,19 @@ img
 .direitos
 {
     text-align: center;
-    color: wheat
+    color: #E8E0D0;
 }
 
 .tabelaLivros
 {
     width: 60%;
-    margin: 30px auto;
+    margin: 100px auto;
     text-align: center;
 }
 
 table, th, td
 {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid #292525;
 }
 
 .sobre
@@ -131,6 +137,7 @@ table, th, td
     text-align: center;
     margin-bottom: 30px;
     font-size: 32px;
+    color: #292525;
 }
 
 .sobre p
@@ -138,14 +145,15 @@ table, th, td
     line-height: 1.7;
     margin-bottom: 20px;
     text-align: justify;
+    color: #292525;
 }
 
 .sobre h3
 {
-    color: #8b0000;
+    color: #8B1E1E;
     margin-top: 30px;
     margin-bottom: 15px;
-    border-bottom: 2px solid #8b0000;
+    border-bottom: 2px solid #8B1E1E;
     padding-bottom: 5px;
 }
 
@@ -158,49 +166,56 @@ table, th, td
 .sobre li
 {
     margin-bottom: 8px;
+    color: #292525;
 }
 
 #contatoTitulo
 {
     text-align: center;
+    color: #292525;
 }
 
 .contato
 {
-    width: 60%;
+    width: 80%;
     margin: 30px auto;
 }
 
 .contato legend
 {
     text-align: center;
+    color: #292525;
 }
 
 input
 {
-    background-color: rgb(44, 44, 38);
+    background-color: #F5F0E6;
 }
 
 select
 {
-    background-color: rgb(44, 44, 38);
+    background-color: #F5F0E6;
 }
 
 textarea
 {
-    background-color: rgb(44, 44, 38);
+    background-color: #F5F0E6;
 }
 
 button:hover
 {
-    background-color: rgb(44, 44, 38);
+    background-color: #C62828;
+    color: white;
 }
 
-nav {
-    background-color: #f5f5f5;
+#menu
+{
+    background-color: #31545A;
+    padding: 5px;
 }
 
-nav ul {
+#menu ul
+{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -209,15 +224,80 @@ nav ul {
     margin: 0;
 }
 
-nav li a {
+#menu li a
+{
     display: block;
     padding: 20px 30px;
-    color: black;
+    color: #F5F0E6;
     text-decoration: none;
     transition: 0.3s;
 }
 
-nav li a:hover {
-    background-color: #8b0000;
+#menu li a:hover
+{
+    background-color: #C62828;
     color: white;
+}
+
+#rodade
+{
+    background-color: #31545A;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+#rodade ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#rodape li a
+{
+    display: block;
+    padding: 20px 30px;
+    color: #F5F0E6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#rodape li a:hover
+{
+    background-color: #C62828;
+    color: white;
+}
+
+.form-conteudo
+{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.campos
+{
+    width: 50%;
+}
+
+.mapa h2
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mapa
+{
+    width: 50%;
+}
+
+.mapa iframe
+{
+    width: 100%;
+    height: 450px;
+    border: 0;
 }

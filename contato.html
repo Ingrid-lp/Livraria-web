@@ -15,11 +15,11 @@
 
     <nav id="menu">
         <ul>
-            <a href="index.html"><li>Inicio</li></a>
-            <a href="produtos.html"><li>Livros</li></a>
-            <a href="#"><li>Promoções</li></a>
-            <a href="sobre.html"><li>John & Paul</li></a>
-            <a href="contato.html"><li>Contate-nos</li></a>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="produtos.html">Livros</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="sobre.html">John & Paul</a></li>
+            <li><a href="contato.html">Contate-nos</a></li>
         </ul>
     </nav>
     
@@ -27,64 +27,84 @@
 
     <form class="contato" action="#" method="POST">
     <fieldset>
-        
+
         <legend>Contate-nos</legend>
 
-        <p>
-            <label for="nome">Nome:</label><br>
-            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
-        </p>
+        <div class="form-conteudo">
 
-        <p>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
-        </p>
-        
-        <p>
-            <label for="telefone">Telefone:</label><br>
-            <input type="tel" id="telefone" name="telefone" placeholder="(dd) 99999-9999">
-        </p>
-       
-        <p>
-            <label for="assunto">Assunto:</label><br>
-            <select id="assunto" name="assunto" required>
-                <option value="" disabled selected>Selecione</option>
-                <option value="trocas">Trocas</option>
-                <option value="atendimento">Atendimento</option>
-                <option value="comercial">Comercial</option>
-                <option value="outros">Outros</option>
-            </select>
-        </p>
+            <div class="campos">
 
-        <p>
-            <label for="mensagem">Mensagem:</label><br>
-            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva aqui a sua mensagem" required></textarea>
-        </p>
+                <p>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                </p>
 
-        <p>
-            <label>
-                <input type="checkbox" name="newsletter" value="sim">
-                Desejo receber informações sobre a Livraria John e Paul
-            </label>
-        </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+                </p>
 
-        <p>
-            <button type="submit">Enviar Formulário</button>
-            <button type="reset">Limpar Campos</button>
-        </p>
+                <p>
+                    <label for="telefone">Telefone:</label><br>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(dd) 99999-9999">
+                </p>
+
+                <p>
+                    <label for="assunto">Assunto:</label><br>
+                    <select id="assunto" name="assunto" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="trocas">Trocas</option>
+                        <option value="atendimento">Atendimento</option>
+                        <option value="comercial">Comercial</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva aqui a sua mensagem" required></textarea>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" name="newsletter" value="sim">
+                        Desejo receber informações sobre a Livraria John e Paul
+                    </label>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar Formulário</button>
+                    <button type="reset">Limpar Campos</button>
+                </p>
+
+            </div>
+
+            <div class="mapa">
+                <h2>Onde estamos</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224444.41829033525!2d-81.34279409999999!3d28.481232000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e773d8fecdbc77%3A0xac3b2063ca5bf9e!2sOrlando%2C%20Fl%C3%B3rida%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1788907290461!5m2!1spt-BR!2sbr"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+
+        </div>
+
     </fieldset>
 </form>
 
+
 <footer id="rodape">
     <div class="links">
-        <ul>
-            <a href="index.html"><li>Inicio</li></a>
-            <a href="produtos.html"><li>Livros</li></a>
-            <a href="#"><li>Promoções</li></a>
-            <a href="sobre.html"><li>John & Paul</li></a>
-            <a href="contato.html"><li>Contate-nos</li></a>
-        </ul>
-    </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="produtos.html">Livros</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="sobre.html">John & Paul</a></li>
+                <li><a href="contato.html">Contate-nos</a></li>
+            </ul>
+     </div>
 
     <div class="direitos">
         <p> &copy; 2014. Livraria John & Paul - Todos os direitos reservados</p>
